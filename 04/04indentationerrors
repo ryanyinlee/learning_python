@@ -1,5 +1,5 @@
 magicians = ['alice','david','carolina']
 
-for anything in magicians:
+"""for anything in magicians:
 print(anything)
-
+"""

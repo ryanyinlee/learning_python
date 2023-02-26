@@ -27,3 +27,4 @@ if age_0 >= 21 or age_1 >= 21:
     print("Welcome to the bar!")
 else:
     print("Get the hell out of here you kids!!")
+    
