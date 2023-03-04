@@ -9,4 +9,4 @@ Ch3 - Introducing Lists \
 Ch4 - Working With Lists \
 Ch5 - if Statements \
 Ch6 - Dictionaries \
-Ch7 - User Input and while loops \
+Ch7 - User Input and while loops 
