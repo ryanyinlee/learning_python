@@ -11,7 +11,7 @@ print(mishmoosh['first_name'])
 print(mishmoosh['last_name'])
 print(mishmoosh['age'])
 print(mishmoosh['city'])
-
+print("\n")
 #6-2 favorite numbers
 
 fave_nums = {
@@ -27,7 +27,7 @@ print(f"ptheven's fave num = {fave_nums['ptheven']}")
 print(f"spthaulisyius' fave num = {fave_nums['pthaulisyius']}")
 print(f"samsonite's fave num = {fave_nums['samsonite']}")
 print(f"bills's fave num = {fave_nums['bill']}")
-
+print("\n")
 #6-3 glossary
 
 glossary = {
@@ -35,5 +35,9 @@ glossary = {
     'variable': 'a thing what stored that can be changed',
     'tuple': 'an immutable variable',
     'if': 'check if something',
-    'list': 'list of things,'
+    'list': 'list of things',
 }
+
+for gloss in glossary:
+    print(f"{gloss}: \n {glossary[gloss]}")
+    print("\n")
