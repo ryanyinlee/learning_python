@@ -1,7 +1,5 @@
 #8-10 sending messages
 
-#8-9 mesages
-
 messages = ['ay wassup', 'how u doin bby', 'where u at bru', 'you okay man?', 'have you seen my dog?']
 
 def show_messages(messages):
@@ -20,7 +18,7 @@ def send_messages(messages, sent_messages):
     
     print(messages)
     print(sent_messages)
-    
+
 sent = []
 
 send_messages(messages, sent)
