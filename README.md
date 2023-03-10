@@ -15,6 +15,6 @@ Ch5 - if Statements \
 Ch6 - Dictionaries \
 Ch7 - User Input and While loops \
 Ch8 - Functions \
-Ch9 - Classes \
+Ch9 - Classes 
 
 Will also incorporate programs and code snippets from other sources.
