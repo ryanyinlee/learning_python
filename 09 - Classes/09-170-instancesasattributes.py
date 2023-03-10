@@ -31,29 +31,41 @@ class Car:
     def fill_gas_tank(self):
         print(f"Tank filled.")
 
+class Battery:
+    """A model of a battery for an electric car. 100% scientifically and philosophically accurate"""
+    def __init__(self, battery_size=75):
+        """Init battery attributes"""
+        self.battery_size = battery_size
+        
+    def describe_battery(self):
+        """Print a statement descrining the battery size"""
+        print(f"This car has a battery size of {self.battery_size}-kWh")
+    def get_range(self):
+        """Print a statement about battery range"""
+        if self.battery_size == 75:
+            range = 260
+        elif self.battery_size == 100:
+            range = 315
+        
+        print(f"This car can go {range} miles on a full charge.")
+
 class ElectricCar(Car):
     """A car, but electric"""
 
     def __init__(self, make, model, year):
         """Initialize attributes of the parent class"""
         super().__init__(make, model, year)
-        self.battery_size = 75
-
-    def describe_battery(self):
-        """Print a statement descrining the battery size"""
-        print(f"This car has a battery size of {self.battery_size}-kWh")
+        self.battery = Battery()
 
     def fill_gas_tank(self):
         print(f"It ain't got no gas in it.")
 
-car0 = Car('subaru', 'crosstrek', 2021)
+
 
 tesla0 = ElectricCar('tesla', 'model x', 2019)
 
 print(tesla0.get_descriptive_name())
 
-tesla0.describe_battery()
+tesla0.battery.describe_battery()
 
-tesla0.fill_gas_tank()
-
-car0.fill_gas_tank()
+tesla0.battery.get_range()
