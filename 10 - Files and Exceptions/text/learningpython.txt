@@ -1,0 +1,15 @@
+In Python, you can do quite a bit.
+
+I learned about variables, Python data types, the math you can do.
+
+In Python you can make and use lists.
+
+Python lets you use conditional if statements.
+
+Python has dictionaries.
+
+Python can get user input and to use while loops.
+
+Python can create functions to encapsulate and modularize code.
+
+Python can be used to create classes to model real world objects.
