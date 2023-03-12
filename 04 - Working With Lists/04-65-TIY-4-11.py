@@ -1,4 +1,4 @@
-#4-10
+#4-11
 pizzas = ['cheese','pepperoni', 'combo', 'hawaiian', 'montenegro']
 print("The First three items in the list are: ")
 print(pizzas[:3])
