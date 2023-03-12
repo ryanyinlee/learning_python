@@ -1,3 +1,5 @@
+#checking usernames
+
 current_users = ['admin', 'adam', 'steven', 'eliza', 'melissa']
 
 new_users =  ['admin2', 'adam', 'notsteven', 'eliza', 'not_melissa', 'Adam', 'ADAM']

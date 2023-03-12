@@ -1,0 +1,16 @@
+friends = ['garrett','scott','rob', 'justin','wes']
+
+print(friends[0])
+
+print(friends[1])
+print(friends[2])
+
+print(friends[3])
+
+print(friends[4])
+
+
+
+for friend in friends:
+    message = f"hello there, {friend}"
+    print(message)
