@@ -1,5 +1,4 @@
 
-
 motorcycles = ['honda', 'hamama', 'huzuki']
 
 print(motorcycles[-1])
