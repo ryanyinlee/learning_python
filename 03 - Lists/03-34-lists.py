@@ -17,13 +17,4 @@ print(message)
 # ahoy hoy
 
 
-x = 1
-
-
-name = friends[x]
-message = f"hello there, {name}"
-
-
-
-print(message)
 
