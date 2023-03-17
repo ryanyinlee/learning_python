@@ -16,6 +16,7 @@ Ch6 - Dictionaries \
 Ch7 - User Input and While loops \
 Ch8 - Functions \
 Ch9 - Classes \
-CH10 - Files and Exceptions
+CH10 - Files and Exceptions \
+CH11 - Testing Your Code
 
 Will also incorporate programs and code snippets from other sources.
