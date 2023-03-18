@@ -1,11 +1,11 @@
 # learning_python
-Simple playground for Python learning via Eric Matthes' Python Crash Course
+Learning environment for Python via Eric Matthes' Python Crash Course
 
 Files are sorted by page for easy reference. 
 
-TIY = Try It Yourself, or a simple problem that must be fixed using the information from the preceding pages. 
+TIY = Try It Yourself. Given a scenario, use the code from the prior pages and solve a problem. Allows for more improvisation and creativity.
 
-Some of the notes or TIYs are in folders as they involve the use of modules.
+Some of the notes or TIYs are in folders as they involve the use of modules or multiple files.
 
 Ch1 - Getting started \
 Ch2 - Variables and Simple Data Types \
@@ -19,4 +19,4 @@ Ch9 - Classes \
 CH10 - Files and Exceptions \
 CH11 - Testing Your Code
 
-Will also incorporate programs and code snippets from other sources.
+Will eventually incorporate projects, programs and code snippets from other sources.
